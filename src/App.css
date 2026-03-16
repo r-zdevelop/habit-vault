@@ -1,0 +1,16 @@
+/* App.css - estilos globales mínimos para HabitVault (el resto usa Tailwind) */
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+input,
+select {
+  font-family: inherit;
+}

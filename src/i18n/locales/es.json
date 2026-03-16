@@ -1,0 +1,40 @@
+{
+  "app": { "title": "HabitVault" },
+  "nav": { "previous": "← Anterior", "today": "Hoy", "next": "Siguiente →" },
+  "table": {
+    "habit": "Hábito",
+    "done": "Logrado",
+    "goal": "Objetivo",
+    "missed": "No logrado",
+    "total": "Total",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "days": {
+    "mon": "Lu",
+    "tue": "Ma",
+    "wed": "Mi",
+    "thu": "Ju",
+    "fri": "Vi",
+    "sat": "Sá",
+    "sun": "Do"
+  },
+  "form": {
+    "placeholder": "Nuevo hábito...",
+    "add": "+",
+    "goal_label": "Objetivo"
+  },
+  "setup": {
+    "welcome": "Bienvenido a HabitVault",
+    "select_folder": "Selecciona la carpeta donde guardar tu base de datos",
+    "browse": "Elegir carpeta",
+    "db_not_found": "No se encontró el archivo de base de datos. ¿Deseas seleccionar otra carpeta?"
+  },
+  "errors": {
+    "load_habits": "Error al cargar hábitos",
+    "save": "Error al guardar"
+  },
+  "lang": { "es": "ES", "en": "EN" }
+}
