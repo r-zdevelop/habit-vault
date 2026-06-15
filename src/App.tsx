@@ -11,6 +11,7 @@ import { WeeklyTracker } from "./components/WeeklyTracker";
 import { WeekNav } from "./components/WeekNav";
 import { AddHabitForm } from "./components/AddHabitForm";
 import { LanguageSwitcher } from "./components/LanguageSwitcher";
+import { AutostartToggle } from "./components/AutostartToggle";
 import { useHabits } from "./hooks/useHabits";
 
 // Clave usada en el store de Tauri para persistir la ruta de la DB
@@ -132,7 +133,10 @@ export default function App() {
           onNext={goToNextWeek}
         />
 
-        <LanguageSwitcher />
+        <div className="flex items-center gap-3">
+          <AutostartToggle />
+          <LanguageSwitcher />
+        </div>
       </header>
 
       {/* Mensaje de error global */}

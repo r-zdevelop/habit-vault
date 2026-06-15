@@ -36,5 +36,11 @@
     "load_habits": "Failed to load habits",
     "save": "Failed to save"
   },
-  "lang": { "es": "ES", "en": "EN" }
+  "lang": { "es": "ES", "en": "EN" },
+  "autostart": {
+    "on": "Autostart: ON",
+    "off": "Autostart: OFF",
+    "enable": "Enable launch at login",
+    "disable": "Disable launch at login"
+  }
 }

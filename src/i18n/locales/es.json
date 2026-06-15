@@ -36,5 +36,11 @@
     "load_habits": "Error al cargar hábitos",
     "save": "Error al guardar"
   },
-  "lang": { "es": "ES", "en": "EN" }
+  "lang": { "es": "ES", "en": "EN" },
+  "autostart": {
+    "on": "Autoarranque: ON",
+    "off": "Autoarranque: OFF",
+    "enable": "Activar inicio automático al encender el equipo",
+    "disable": "Desactivar inicio automático al encender el equipo"
+  }
 }
