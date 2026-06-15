@@ -74,13 +74,13 @@ Install the [Visual Studio C++ Build Tools](https://visualstudio.microsoft.com/v
 
 ```bash
 # Instalar dependencias de Node
-npm install
+pnpm install
 
 # Iniciar en modo desarrollo
-npm run tauri dev
+pnpm tauri dev
 
 # Compilar para producción
-npm run tauri build
+pnpm tauri build
 ```
 
 ---
