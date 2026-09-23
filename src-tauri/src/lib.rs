@@ -5,6 +5,7 @@ mod commands;
 
 use commands::checks::{get_week_checks, toggle_check};
 use commands::db::{get_db_path, open_database, select_db_folder, DbState};
+use commands::diet::{create_diet_entry, delete_diet_entry, get_diet_entries, update_diet_entry};
 use commands::habits::{create_habit, delete_habit, get_habits, update_habit};
 use std::sync::{Arc, Mutex};
 
@@ -35,6 +36,11 @@ pub fn run() {
             // Checks
             toggle_check,
             get_week_checks,
+            // Diet
+            get_diet_entries,
+            create_diet_entry,
+            update_diet_entry,
+            delete_diet_entry,
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

@@ -34,7 +34,19 @@
   },
   "errors": {
     "load_habits": "Failed to load habits",
+    "load_diet": "Failed to load diet log",
     "save": "Failed to save"
+  },
+  "tabs": {
+    "habits": "Habits",
+    "diet": "Diet"
+  },
+  "diet": {
+    "placeholder": "What did you eat?",
+    "kcal_placeholder": "Kcal (optional)",
+    "description": "Description",
+    "kcal": "Kcal",
+    "empty": "No entries logged for this day."
   },
   "lang": { "es": "ES", "en": "EN" },
   "autostart": {

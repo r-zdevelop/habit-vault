@@ -15,6 +15,14 @@ export interface CheckRecord {
   check_date: string;
 }
 
+export interface DietEntry {
+  id: number;
+  entry_date: string;
+  description: string;
+  kcal: number | null;
+  created_at: string;
+}
+
 export interface WeekData {
   dates: string[];
   checks: CheckRecord[];

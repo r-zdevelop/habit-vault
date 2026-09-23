@@ -34,7 +34,19 @@
   },
   "errors": {
     "load_habits": "Error al cargar hábitos",
+    "load_diet": "Error al cargar el registro de dieta",
     "save": "Error al guardar"
+  },
+  "tabs": {
+    "habits": "Hábitos",
+    "diet": "Dieta"
+  },
+  "diet": {
+    "placeholder": "¿Qué comiste?",
+    "kcal_placeholder": "Kcal (opcional)",
+    "description": "Descripción",
+    "kcal": "Kcal",
+    "empty": "No hay registros para este día."
   },
   "lang": { "es": "ES", "en": "EN" },
   "autostart": {

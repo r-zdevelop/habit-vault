@@ -30,6 +30,14 @@ pub fn init_schema(conn: &Connection) -> Result<(), rusqlite::Error> {
             check_date TEXT NOT NULL,
             UNIQUE(habit_id, check_date)
         );
+
+        CREATE TABLE IF NOT EXISTS diet_entries (
+            id          INTEGER PRIMARY KEY AUTOINCREMENT,
+            entry_date  TEXT NOT NULL,
+            description TEXT NOT NULL,
+            kcal        INTEGER,
+            created_at  TEXT NOT NULL DEFAULT (datetime('now'))
+        );
         ",
     )
 }
